@@ -3,6 +3,7 @@ console.log(`Find max number using functions`);
 
 let maxNumber;
 function getMax(pHolder){
+    maxNumber = 0
     for (let i = 0; i < pHolder.length; i++) {
                 if(maxNumber > pHolder[i]){
                     maxNumber = maxNumber;
