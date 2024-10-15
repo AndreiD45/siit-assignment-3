@@ -32,7 +32,10 @@ function detectWinner(userChoice, computerChoice){
     displayOption(userChoice);
     displayCOption(computerChoice);
     displayResult(result);
-    
+    console.log(`You chose ${userChoice}`);
+    console.log(`The computer chose ${computerChoice}`);
+    console.log(result);
+
 }
 
 function getResult(a, b){
@@ -64,11 +67,11 @@ function displayOption(a){
     const displayUserChoice = document.querySelector(`#user-choice`)
     displayUserChoice.textContent = a
 }
-function displayCOption(a){
+function displayCOption(b){
     const displayUserChoice = document.querySelector(`#computer-choice`)
-    displayUserChoice.textContent = a
+    displayUserChoice.textContent = b
 }
-function displayResult(a){
-    const displayUserChoice = document.querySelector(`#round-result`)
-    displayUserChoice.textContent = a
+function displayResult(c){
+    const displayResult = document.querySelector(`#round-result`)
+    displayResult.textContent = c
 }

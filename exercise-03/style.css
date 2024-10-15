@@ -1,0 +1,7 @@
+div{
+    display: flex;
+    border: 5px;
+    margin: 1rem;
+    background-color: aqua;
+    border-color: red;
+}
